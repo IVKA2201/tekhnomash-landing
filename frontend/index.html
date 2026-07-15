@@ -7,7 +7,8 @@
     <title>ТЕХНОМАШ - Волоконно-оптические компоненты</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,9 +16,12 @@
     <!-- Header -->
     <header class="header">
         <div class="header__container">
+            <!-- Logo -->
             <div class="logo">
                 <img src="images/logo.svg" alt="ТЕХНОМАШ ВОС" class="logo__img">
             </div>
+
+            <!-- Navigation -->
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
@@ -34,6 +38,8 @@
                     </li>
                 </ul>
             </nav>
+
+            <!-- Order Button -->
             <button class="btn btn--order">Заказать</button>
         </div>
     </header>
@@ -42,16 +48,19 @@
     <section id="home" class="hero">
         <div class="container hero__container">
             <div class="hero__image-wrapper">
-                <img src="images/hero-bg.jpg" alt="..." class="hero__image">
+                <!-- Фоновое изображение -->
+                <img src="images/hero-bg.jpg"
+                    alt="ТЕХНОМАШ - разработка и производство волоконно-оптических компонентов" class="hero__image">
 
+                <!-- Контент поверх изображения -->
                 <div class="hero__content">
                     <div class="hero__content-inner">
                         <h1 class="hero__title">
                             <span class="hero__title-main">ТЕХНОМАШ</span>
                             <span class="hero__title-accent">ВОС</span>
                         </h1>
-                        <p class="hero__subtitle">разработка и производство волоконно-оптических<br>компонентов и систем
-                            передачи информации</p>
+                        <p class="hero__subtitle b3 text-white">разработка и производство
+                            волоконно-оптических<br>компонентов и систем передачи информации</p>
                         <div class="hero__buttons">
                             <a href="#patents" class="btn btn--primary">ПАТЕНТЫ</a>
                             <a href="#publications" class="btn btn--outline">ПУБЛИКАЦИИ</a>
@@ -66,23 +75,32 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">БОЛЕЕ 30 ЛЕТ НА РЫНКЕ</h2>
+            <h4 class="about__title h4 text-dark">О КОМПАНИИ</h4>
             <div class="about__content">
                 <div class="about__text">
-                    <p>АО «ЦНИТИ «Техномаш-ВОС» — это российский разработчик и производитель волоконно-оптических
-                        компонентов и систем передачи информации.</p>
-                    <p>Предприятие обладает современным контрольно-измерительным, специальным технологическим и
-                        испытательным оборудованием ведущих мировых производителей.</p>
-                    <p>Отличительной особенностью технологий института является ориентирование преимущественно на
-                        отечественные материалы и комплектующие изделия.</p>
+                    <p class="b3 text-dark">Основными направлениями нашей деятельности является разработка и
+                        производство волоконно-оптических компонентов и систем передачи информации.
+                        АО "ЦНИТИ "Техномаш-ВОС" было основано на базе Центрального научно-исследовательского
+                        технологического института Министерства промышленности средств связи в 1995 году. Несмотря
+                        на многие трудности переходного периода, удалось сохранить технологическое оборудование и
+                        опытные научно-технические кадры.</p>
+                    <p class="b3 text-dark">C 1975 г. cотрудники АО "ЦНИТИ "Техномаш-ВОС" занимаются работами в
+                        области с оздания компонентной базы волоконно-оптической техники и систем передачи. Были
+                        проведены фундаментальные НИОКР по разработке компонентов волоконно-оптических систем
+                        передачи информации (ВОСП) и технологии их изготовления.
+                        Мы используем самое современное контрольно-измерительное, специальное технологическое и
+                        испытательное оборудование передовых ведущих фирм США, Канады, Японии, Германии и
+                        Франции.Основной особенностью наших технологий является ориентирование преимущественно на
+                        отечественные материалы и комплектующие изделия.Производимые нами компоненты рассчитаны на
+                        работу в самых экстремальных условиях окружающей среды.
+                        Генеральный директор АО "ЦНИТИ "Техномаш-ВОС"
+                        Яковлев Михаил Яковлевич.Кандидат технических наук, старший научный сотрудник, академик
+                        Международной академии информатизации.Автор более 200 публикаций, а также более 50
+                        изобретений.
+                    </p>
+
                 </div>
-                <div class="about__features">
-                    <ul class="features__list">
-                        <li class="features__item">Научные исследования и разработки</li>
-                        <li class="features__item">Современное оборудование</li>
-                        <li class="features__item">Отечественные материалы</li>
-                    </ul>
-                </div>
+
             </div>
         </div>
     </section>
@@ -90,25 +108,24 @@
     <!-- Catalog Section -->
     <section id="catalog" class="catalog">
         <div class="container">
-            <h2 class="section-title">ПРОДУКЦИЯ И УСЛУГИ</h2>
+            <h2 class="section-title h2 text-dark">ПРОДУКЦИЯ И УСЛУГИ</h2>
             <div class="catalog__grid">
                 <!-- Card 1 -->
                 <div class="catalog__card">
                     <div class="card__image">
                         <img src="images/product-1.jpg" alt="Волоконно-оптические компоненты" class="card__img">
                     </div>
-                    <h3 class="card__title">Волоконно-оптические компоненты</h3>
-                    <p class="card__text">Разработка и производство</p>
+                    <h3 class="card__title h3 text-dark">Волоконно-оптические компоненты</h3>
+                    <p class="card__text b3">Разработка и производство</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="catalog__card">
                     <div class="card__image">
                         <img src="images/product-2.jpg" alt="Системы передачи информации" class="card__img">
                     </div>
-                    <h3 class="card__title">Системы передачи информации</h3>
-                    <p class="card__text">Современные решения</p>
+                    <h3 class="card__title h3 text-dark">Системы передачи информации</h3>
+                    <p class="card__text b3">Современные решения</p>
                 </div>
-                <!-- Добавь больше карточек по необходимости -->
             </div>
         </div>
     </section>
@@ -116,11 +133,11 @@
     <!-- Contacts Section -->
     <section id="contacts" class="contacts">
         <div class="container">
-            <h2 class="section-title">КОНТАКТЫ</h2>
+            <h2 class="section-title h2 text-dark">КОНТАКТЫ</h2>
             <div class="contacts__content">
-                <p class="contacts__item">г. Москва, ул. Ивана Франко, д. 4</p>
-                <p class="contacts__item">Тел: +7 (495) 123-45-67</p>
-                <p class="contacts__item">Email: info@tmvos.ru</p>
+                <p class="contacts__item b3 text-dark">📍 г. Москва, ул. Ивана Франко, д. 4</p>
+                <p class="contacts__item b3 text-dark">📞 Тел: +7 (495) 123-45-67</p>
+                <p class="contacts__item b3 text-dark">✉️ Email: info@tmvos.ru</p>
             </div>
         </div>
     </section>
@@ -128,7 +145,7 @@
     <!-- Order Form Section -->
     <section class="order-form">
         <div class="container">
-            <h2 class="section-title">ФОРМА ЗАКАЗА</h2>
+            <h2 class="section-title h2 text-dark">ФОРМА ЗАКАЗА</h2>
             <button class="btn btn--download">Скачать шаблон заявки</button>
         </div>
     </section>
@@ -136,10 +153,10 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p class="footer__text">&copy; 2026 АО «ЦНИТИ «Техномаш-ВОС»</p>
+            <p class="footer__text b5 text-white">&copy; 2026 АО «ЦНИТИ «Техномаш-ВОС»</p>
             <div class="footer__links">
-                <a href="#" class="footer__link">Политика в области качества</a>
-                <a href="#" class="footer__link">Политика защиты и обработки персональных данных</a>
+                <a href="#" class="footer__link b5">Политика в области качества</a>
+                <a href="#" class="footer__link b5">Политика защиты и обработки персональных данных</a>
             </div>
         </div>
     </footer>
