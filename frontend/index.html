@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТЕХНОМАШ - Волоконно-оптические компоненты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="ТЕХНОМАШ ВОС" class="logo__img">
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">О нас</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#catalog" class="nav__link">Каталог</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="btn btn--order">Заказать</button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Главная) -->
+    <section id="home" class="hero">
+        <div class="container hero__container">
+            <div class="hero__image-wrapper">
+                <img src="images/hero-bg.jpg" alt="..." class="hero__image">
+
+                <div class="hero__content">
+                    <div class="hero__content-inner">
+                        <h1 class="hero__title">
+                            <span class="hero__title-main">ТЕХНОМАШ</span>
+                            <span class="hero__title-accent">ВОС</span>
+                        </h1>
+                        <p class="hero__subtitle">разработка и производство волоконно-оптических<br>компонентов и систем
+                            передачи информации</p>
+                        <div class="hero__buttons">
+                            <a href="#patents" class="btn btn--primary">ПАТЕНТЫ</a>
+                            <a href="#publications" class="btn btn--outline">ПУБЛИКАЦИИ</a>
+                            <a href="#vacancies" class="btn btn--outline">ВАКАНСИИ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">БОЛЕЕ 30 ЛЕТ НА РЫНКЕ</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>АО «ЦНИТИ «Техномаш-ВОС» — это российский разработчик и производитель волоконно-оптических
+                        компонентов и систем передачи информации.</p>
+                    <p>Предприятие обладает современным контрольно-измерительным, специальным технологическим и
+                        испытательным оборудованием ведущих мировых производителей.</p>
+                    <p>Отличительной особенностью технологий института является ориентирование преимущественно на
+                        отечественные материалы и комплектующие изделия.</p>
+                </div>
+                <div class="about__features">
+                    <ul class="features__list">
+                        <li class="features__item">Научные исследования и разработки</li>
+                        <li class="features__item">Современное оборудование</li>
+                        <li class="features__item">Отечественные материалы</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">ПРОДУКЦИЯ И УСЛУГИ</h2>
+            <div class="catalog__grid">
+                <!-- Card 1 -->
+                <div class="catalog__card">
+                    <div class="card__image">
+                        <img src="images/product-1.jpg" alt="Волоконно-оптические компоненты" class="card__img">
+                    </div>
+                    <h3 class="card__title">Волоконно-оптические компоненты</h3>
+                    <p class="card__text">Разработка и производство</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="catalog__card">
+                    <div class="card__image">
+                        <img src="images/product-2.jpg" alt="Системы передачи информации" class="card__img">
+                    </div>
+                    <h3 class="card__title">Системы передачи информации</h3>
+                    <p class="card__text">Современные решения</p>
+                </div>
+                <!-- Добавь больше карточек по необходимости -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="section-title">КОНТАКТЫ</h2>
+            <div class="contacts__content">
+                <p class="contacts__item">г. Москва, ул. Ивана Франко, д. 4</p>
+                <p class="contacts__item">Тел: +7 (495) 123-45-67</p>
+                <p class="contacts__item">Email: info@tmvos.ru</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-form">
+        <div class="container">
+            <h2 class="section-title">ФОРМА ЗАКАЗА</h2>
+            <button class="btn btn--download">Скачать шаблон заявки</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2026 АО «ЦНИТИ «Техномаш-ВОС»</p>
+            <div class="footer__links">
+                <a href="#" class="footer__link">Политика в области качества</a>
+                <a href="#" class="footer__link">Политика защиты и обработки персональных данных</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
